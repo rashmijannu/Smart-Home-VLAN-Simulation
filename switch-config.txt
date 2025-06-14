@@ -1,0 +1,40 @@
+
+hostname S1
+vlan 10
+ name IOT
+vlan 20
+ name SECURITY
+vlan 30
+ name PERSONAL
+vlan 99
+ name MANAGEMENT
+exit
+
+interface range FastEthernet0/1 - 2
+ switchport mode access
+ switchport access vlan 10
+exit
+
+interface range FastEthernet0/3 - 4
+ switchport mode access
+ switchport access vlan 20
+exit
+
+interface range FastEthernet0/5 - 6
+ switchport mode access
+ switchport access vlan 30
+exit
+
+interface FastEthernet0/7
+ switchport mode access
+ switchport access vlan 99
+exit
+
+interface Vlan99
+ ip address 192.168.99.2 255.255.255.0
+ no shutdown
+exit
+
+interface FastEthernet0/24
+ switchport mode trunk
+exit
