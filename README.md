@@ -62,7 +62,7 @@ This project simulates a **Smart Home network environment** using **Cisco Packet
 
 ---
 
-## 📸 Network Topology
+##  Network Topology
 ![Smart Home VLAN Network Diagram](A_network_diagram_of_a_smart_home_VLAN_network_sim.png)
 
 
