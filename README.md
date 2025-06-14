@@ -6,7 +6,7 @@ This project simulates a **Smart Home network environment** using **Cisco Packet
 
 ---
 
-## 🛠 Devices Used
+##  Devices Used
 - **Router:** Cisco 2911  
 - **Multilayer Switch:** Cisco 3560-24PS  
 - **End Devices (simulated as PCs):**
